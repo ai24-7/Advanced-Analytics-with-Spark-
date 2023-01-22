@@ -1,32 +1,5 @@
 Advanced Analytics with Spark Source Code
 =========================================
-
-Code to accompany [Advanced Analytics with Spark](http://shop.oreilly.com/product/0636920035091.do), by 
-[Sandy Ryza](https://github.com/sryza), [Uri Laserson](https://github.com/laserson), 
-[Sean Owen](https://github.com/srowen), and [Josh Wills](https://github.com/jwills).
-
-[![Advanced Analytics with Spark](http://akamaicovers.oreilly.com/images/0636920056591/lrg.jpg)](http://shop.oreilly.com/product/0636920056591.do)
-
-### 3rd edition (current)
-
-The source to accompany the 3rd edition is found in this, the default 
-[`master` branch](https://github.com/sryza/aas).
-
-### 2nd Edition (current)
-
-The source to accompany the 2nd edition may be found in the 
-[`2nd-edition` branch](https://github.com/sryza/aas/tree/2nd-edition).
-
-### 1st Edition
-
-The source to accompany the 1st edition may be found in the 
-[`1st-edition` branch](https://github.com/sryza/aas/tree/1st-edition).
-
-### Build
-
-[Apache Maven](http://maven.apache.org/) 3.2.5+ and Java 8+ are required to build. From the root level of the project, 
-run `mvn package` to compile artifacts into `target/` subdirectories beneath each chapter's directory.
-
 ### Running the Examples
 - Install [Apache Spark](https://spark.apache.org) for your platform, following the instructions for the [latest release](https://spark.apache.org/docs/latest/).
 - Build the projects according the instructions above.
